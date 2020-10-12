@@ -1,0 +1,20 @@
+p
+a0
+P -> Q -> R -> S -> T
+intro h1
+intro h2
+intro h3
+intro h4
+trivial
+b
+p
+a1
+(P -> Q -> R ->S) -> S
+intro h1
+apply h1
+rotate 1
+rotate 1
+rotate 1
+abort
+b
+q
