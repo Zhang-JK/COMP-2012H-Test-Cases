@@ -6,7 +6,7 @@ You can upload your test cases here to help others.
 ## How to use this repo
 1. Select a test case  
 2. Paste the input file into the program  
-3. Compare your output with the output file  
+3. Compare your output with the output file (you can use the tool [here](https://tool.lu/diff/))
 ## Contribute to this repo
 You can send me pull request to upload your test cases.
 - Please create your own folder under the corresponding assignment file.
