@@ -1,0 +1,102 @@
+Welcome!
+You are using My Mini Proof Assistant (TM), v0.1.0beta
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+P -> Q -> R -> S -> T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P
+________________________________________________________________________________
+Q -> R -> S -> T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Q
+h1 : P
+________________________________________________________________________________
+R -> S -> T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : R
+h2 : Q
+h1 : P
+________________________________________________________________________________
+S -> T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : S
+h3 : R
+h2 : Q
+h1 : P
+________________________________________________________________________________
+T
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a0 : P -> Q -> R -> S -> T
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(P -> Q -> R -> S) -> S
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q -> R -> S
+________________________________________________________________________________
+S
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q -> R -> S
+________________________________________________________________________________
+P
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q -> R -> S
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q -> R -> S
+________________________________________________________________________________
+R
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : P -> Q -> R -> S
+________________________________________________________________________________
+P
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a0 : P -> Q -> R -> S -> T
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> See you next time!
