@@ -1,0 +1,142 @@
+Welcome!
+You are using My Mini Proof Assistant (TM), v0.1.0beta
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+P /\ Q -> Q /\ P
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hPQ : P /\ Q
+________________________________________________________________________________
+Q /\ P
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hQ : Q
+hPQ : P /\ Q
+________________________________________________________________________________
+Q /\ P
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hQ : Q
+hPQ : P /\ Q
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hQ : Q
+hPQ : P /\ Q
+________________________________________________________________________________
+P
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a1 : P /\ Q -> Q /\ P
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> There is already a theorem with the same name, please choose a different one.
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+P \/ Q -> Q \/ P
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hPQ : P \/ Q
+________________________________________________________________________________
+Q \/ P
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hPQ : P \/ Q
+________________________________________________________________________________
+Q \/ P
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+hP : P
+hPQ : P \/ Q
+________________________________________________________________________________
+P
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hPQ : P \/ Q
+________________________________________________________________________________
+Q \/ P
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+hQ : Q
+hPQ : P \/ Q
+________________________________________________________________________________
+Q
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a2 : P \/ Q -> Q \/ P
+a1 : P /\ Q -> Q /\ P
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+P /\ Q /\ R -> (P /\ Q) /\ R
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Invalid option
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Invalid option
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Invalid option
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Invalid option
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> See you next time!
