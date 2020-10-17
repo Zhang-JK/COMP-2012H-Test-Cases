@@ -1,0 +1,6484 @@
+Welcome!
+You are using My Mini Proof Assistant (TM), v0.1.0beta
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F \/ X -> X
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> X
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Theorem name is invalid: name must be at least 1 character long, contain only alphanumeric characters + underscore and first character cannot be a digit or uppercase
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F \/ X -> X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F \/ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> Tactic 'destruct' failed: hypothesis name is already taken
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F \/ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h1 : F \/ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : F \/ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : F \/ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> F \/ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+F \/ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~(F /\ X)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F /\ X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h3 : X
+h1 : F /\ X
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic 'destruct' failed: hypothesis name is already taken
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h3 : X
+h1 : F /\ X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h3 : X
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h3 : X
+________________________________________________________________________________
+F
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F -> F /\ X
+Enter a tactic:
+> Error: unrecognized tactic
+1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F -> F /\ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F
+________________________________________________________________________________
+F /\ X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+T \/ X -> T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T \/ X
+________________________________________________________________________________
+T
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+T -> T \/ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T
+________________________________________________________________________________
+T \/ X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : T
+________________________________________________________________________________
+T \/ X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : T
+________________________________________________________________________________
+T \/ X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : T
+________________________________________________________________________________
+T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : T
+________________________________________________________________________________
+T \/ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : T
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+T /\ X -> X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T /\ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+h3 : X
+h1 : T /\ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> T /\ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+T /\ X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X \/ X -> X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X \/ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : X \/ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h1 : X \/ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> X \/ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X \/ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X /\ X -> X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : X
+h1 : X /\ X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> X /\ X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X /\ X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X \/ ~X -> T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X \/ ~X
+________________________________________________________________________________
+T
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : X \/ ~X
+________________________________________________________________________________
+T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : X \/ ~X
+________________________________________________________________________________
+T
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+T -> X \/ ~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T
+________________________________________________________________________________
+X \/ ~X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : T
+________________________________________________________________________________
+X \/ ~X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : T
+________________________________________________________________________________
+X \/ ~X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : T
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : T
+________________________________________________________________________________
+X \/ ~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : T
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~F -> T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~F
+________________________________________________________________________________
+T
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+T -> ~F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> Tactic failed: invalid hypothesis name
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> Tactic failed: invalid hypothesis name
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~F
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h1 : T
+________________________________________________________________________________
+~F
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~~T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~T
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~T
+________________________________________________________________________________
+T
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F -> ~T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F
+________________________________________________________________________________
+~T
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~~X -> X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~~X
+________________________________________________________________________________
+X
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~~X
+________________________________________________________________________________
+X
+Enter a tactic:
+> Tactic 'by_contradiction' failed: hypothesis name is already taken
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~~X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : ~~X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : ~~X
+________________________________________________________________________________
+~X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> ~~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+~~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~~X
+h1 : X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h2 : ~~~X
+h1 : X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~~X
+h1 : X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~~X
+h1 : X
+________________________________________________________________________________
+~~X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h2 : ~~~X
+h1 : X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h2 : ~~~X
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h2 : ~~~X
+h1 : X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h2 : ~~~X
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~(X /\ ~X)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ ~X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : ~X
+h1 : X /\ ~X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : ~X
+h1 : X /\ ~X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+F -> X /\ ~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : F
+________________________________________________________________________________
+X /\ ~X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+A /\ B -> B /\ A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A /\ B
+________________________________________________________________________________
+B /\ A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h3 : B
+h1 : A /\ B
+________________________________________________________________________________
+B /\ A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h3 : B
+h1 : A /\ B
+________________________________________________________________________________
+B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h3 : B
+h1 : A /\ B
+________________________________________________________________________________
+A
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> There is already a theorem with the same name, please choose a different one.
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+B /\ A -> A /\ B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B /\ A
+________________________________________________________________________________
+A /\ B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B
+h3 : A
+h1 : B /\ A
+________________________________________________________________________________
+A /\ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B
+h3 : A
+h1 : B /\ A
+________________________________________________________________________________
+A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B
+h3 : A
+h1 : B /\ A
+________________________________________________________________________________
+B
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+A \/ B -> B \/ A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A \/ B
+________________________________________________________________________________
+B \/ A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h1 : A \/ B
+________________________________________________________________________________
+B \/ A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h1 : A \/ B
+________________________________________________________________________________
+A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B
+h1 : A \/ B
+________________________________________________________________________________
+B \/ A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B
+h1 : A \/ B
+________________________________________________________________________________
+B
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+B \/ A -> A \/ B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h : B \/ A
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B
+h : B \/ A
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B
+h : B \/ A
+________________________________________________________________________________
+B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h : B \/ A
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h : B \/ A
+________________________________________________________________________________
+A
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+A /\ B /\ C -> (A /\ B) /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A /\ B /\ C
+________________________________________________________________________________
+(A /\ B) /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h3 : B /\ C
+h1 : A /\ B /\ C
+________________________________________________________________________________
+(A /\ B) /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h3 : B /\ C
+________________________________________________________________________________
+(A /\ B) /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h4 : C
+h2 : A
+h3 : B /\ C
+________________________________________________________________________________
+(A /\ B) /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h4 : C
+h2 : A
+________________________________________________________________________________
+(A /\ B) /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h4 : C
+h2 : A
+________________________________________________________________________________
+A /\ B
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h4 : C
+h2 : A
+________________________________________________________________________________
+A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h4 : C
+h2 : A
+________________________________________________________________________________
+B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h4 : C
+h2 : A
+________________________________________________________________________________
+C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h4 : C
+h2 : A
+________________________________________________________________________________
+B
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(A /\ B) /\ C -> A /\ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (A /\ B) /\ C
+________________________________________________________________________________
+A /\ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A /\ B
+h3 : C
+h1 : (A /\ B) /\ C
+________________________________________________________________________________
+A /\ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A /\ B
+h3 : C
+________________________________________________________________________________
+A /\ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h4 : B
+h2 : A /\ B
+h3 : C
+________________________________________________________________________________
+A /\ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h4 : B
+h3 : C
+________________________________________________________________________________
+A /\ B /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h4 : B
+h3 : C
+________________________________________________________________________________
+A
+Enter a tactic:
+> Tactic 'split' failed: conclusion is not a conjunction
+2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h4 : B
+h3 : C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h4 : B
+h3 : C
+________________________________________________________________________________
+B /\ C
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h4 : B
+h3 : C
+________________________________________________________________________________
+B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h4 : B
+h3 : C
+________________________________________________________________________________
+C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h4 : B
+h3 : C
+________________________________________________________________________________
+A
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+A \/ B \/ C -> (A \/ B) \/ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A \/ B \/ C
+________________________________________________________________________________
+(A \/ B) \/ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+(A \/ B) \/ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+(A \/ B) \/ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> Tactic 'destruct' failed: hypothesis name is already taken
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : A
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : A
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : B \/ C
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : B
+h3 : B \/ C
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : B
+h3 : B \/ C
+h2 : ~C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : B
+h3 : B \/ C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : B
+h3 : B \/ C
+________________________________________________________________________________
+B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h5 : C
+h3 : B \/ C
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h5 : C
+h3 : B \/ C
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h5 : C
+h3 : B \/ C
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+C
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis not found in local or global context
+1 subgoal(s) remaining.
+Current focused subgoal:
+h5 : C
+h3 : B \/ C
+h2 : ~C
+h1 : A \/ B \/ C
+________________________________________________________________________________
+C
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(A \/ B) \/ C -> A \/ B \/ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+A \/ B \/ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A \/ B
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+A \/ B \/ C
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : A
+h2 : A \/ B
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+A \/ B \/ C
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : A
+h2 : A \/ B
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : B
+h2 : A \/ B
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+A \/ B \/ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : B
+h2 : A \/ B
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+B \/ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : B
+h2 : A \/ B
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : C
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+A \/ B \/ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : C
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+B \/ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : C
+h1 : (A \/ B) \/ C
+________________________________________________________________________________
+C
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+A /\ (B \/ C) -> A /\ B \/ A /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A /\ (B \/ C)
+________________________________________________________________________________
+A /\ B \/ A /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h3 : B \/ C
+h1 : A /\ (B \/ C)
+________________________________________________________________________________
+A /\ B \/ A /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h3 : B \/ C
+________________________________________________________________________________
+A /\ B \/ A /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h2 : A
+h3 : B \/ C
+________________________________________________________________________________
+A /\ B \/ A /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h2 : A
+________________________________________________________________________________
+A /\ B \/ A /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h2 : A
+________________________________________________________________________________
+A /\ B
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h2 : A
+________________________________________________________________________________
+A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h2 : A
+________________________________________________________________________________
+B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : C
+h2 : A
+h3 : B \/ C
+________________________________________________________________________________
+A /\ B \/ A /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : C
+h2 : A
+h3 : B \/ C
+________________________________________________________________________________
+A /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : C
+h2 : A
+h3 : B \/ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : C
+h2 : A
+h3 : B \/ C
+________________________________________________________________________________
+C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : C
+h2 : A
+________________________________________________________________________________
+C
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+A /\ B \/ A /\ C -> A /\ (B \/ C)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+A /\ (B \/ C)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A /\ B
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+A /\ (B \/ C)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : A
+h4 : B
+h2 : A /\ B
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+A /\ (B \/ C)
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : A
+h4 : B
+h2 : A /\ B
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : A
+h4 : B
+h2 : A /\ B
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+B \/ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : A
+h4 : B
+h2 : A /\ B
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : A /\ C
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+A /\ (B \/ C)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h4 : C
+h3 : A /\ C
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+A /\ (B \/ C)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h4 : C
+h3 : A /\ C
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h4 : C
+h3 : A /\ C
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+B \/ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h4 : C
+h3 : A /\ C
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h4 : C
+h3 : A /\ C
+h1 : A /\ B \/ A /\ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A \/ B /\ C
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C)
+Enter a tactic:
+> Tactic failed: invalid hypothesis name
+1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A \/ B /\ C
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h1 : A \/ B /\ C
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C)
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h1 : A \/ B /\ C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h1 : A \/ B /\ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h1 : A \/ B /\ C
+________________________________________________________________________________
+A \/ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A
+h1 : A \/ B /\ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B /\ C
+h1 : A \/ B /\ C
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B /\ C
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C)
+Enter a tactic:
+> Tactic 'destruct' failed: the two hypothesis names must be unique
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : B /\ C
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h3 : C
+h2 : B /\ C
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h3 : C
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h3 : C
+________________________________________________________________________________
+A \/ B
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h3 : C
+________________________________________________________________________________
+B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h3 : C
+________________________________________________________________________________
+A \/ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : B
+h3 : C
+________________________________________________________________________________
+C
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(A \/ B) /\ (A \/ C) -> A \/ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (A \/ B) /\ (A \/ C)
+________________________________________________________________________________
+A \/ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A \/ B
+h3 : A \/ C
+h1 : (A \/ B) /\ (A \/ C)
+________________________________________________________________________________
+A \/ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+A \/ B /\ C
+Enter a tactic:
+> Tactic 'split' failed: conclusion is not a conjunction
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+A \/ B /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+A \/ B /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+A \/ B /\ C
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+B /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : A
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+B /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : A
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : A
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : B
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+B /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : A
+h4 : B
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+B /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : A
+h4 : B
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : A
+h4 : B
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+A
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h5 : C
+h4 : B
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+B /\ C
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : C
+h4 : B
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+B
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h5 : C
+h4 : B
+h1 : ~A
+h2 : A \/ B
+h3 : A \/ C
+________________________________________________________________________________
+C
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~(X /\ Y) -> ~X \/ ~Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~X \/ ~Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~X \/ ~Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~X \/ ~Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~X \/ ~Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~Y
+h2 : X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+~Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y)
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h3 : Y
+h2 : X
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Y
+h2 : X
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Y
+h2 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Y
+h2 : X
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~X \/ ~Y -> ~(X /\ Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X \/ ~Y
+________________________________________________________________________________
+~(X /\ Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Y
+h1 : ~X \/ ~Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Y
+h2 : X /\ Y
+h1 : ~X \/ ~Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Y
+h1 : ~X \/ ~Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h3 : X
+h4 : Y
+h1 : ~X \/ ~Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h3 : X
+h4 : Y
+h1 : ~X \/ ~Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~Y
+h3 : X
+h4 : Y
+h1 : ~X \/ ~Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~Y
+h3 : X
+h4 : Y
+h1 : ~X \/ ~Y
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~(X \/ Y) -> ~X /\ ~Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+~X /\ ~Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+~X
+Enter a tactic:
+> Tactic 'intro' failed: hypothesis name is already taken
+2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+~Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h1 : ~(X \/ Y)
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~X /\ ~Y -> ~(X \/ Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X /\ ~Y
+________________________________________________________________________________
+~(X \/ Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h1 : ~X /\ ~Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : ~Y
+h2 : X \/ Y
+h1 : ~X /\ ~Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : ~Y
+h2 : X \/ Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+h3 : ~X
+h4 : ~Y
+h2 : X \/ Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+h3 : ~X
+h4 : ~Y
+h2 : X \/ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Y
+h3 : ~X
+h4 : ~Y
+h2 : X \/ Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Y
+h3 : ~X
+h4 : ~Y
+h2 : X \/ Y
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : ~Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : ~Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~Y \/ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : ~Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+X /\ Y /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+h1 : ~(X /\ Y /\ Z)
+________________________________________________________________________________
+Y /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+________________________________________________________________________________
+Y /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+________________________________________________________________________________
+Z
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis not found in local or global context
+1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h3 : Y
+h2 : X
+________________________________________________________________________________
+Z
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+~(X /\ Y /\ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Y /\ Z
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Y /\ Z
+h2 : X /\ Y /\ Z
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Y /\ Z
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h5 : Z
+h3 : X
+h4 : Y /\ Z
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n1 : ~X
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n1 : ~X
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+n1 : ~Y \/ ~Z
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n2 : ~Y
+n1 : ~Y \/ ~Z
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n2 : ~Y
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n2 : ~Y
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+n2 : ~Z
+n1 : ~Y \/ ~Z
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+n2 : ~Z
+n1 : ~Y \/ ~Z
+h2 : Y
+h5 : Z
+h3 : X
+h1 : ~X \/ ~Y \/ ~Z
+________________________________________________________________________________
+Z
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+~X /\ ~Y /\ ~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+~Y /\ ~Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+~Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+X \/ Y \/ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+~Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Z
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Z
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+X \/ Y \/ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Z
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Z
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+X \/ Y \/ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : ~(X \/ Y \/ Z)
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X /\ ~Y /\ ~Z
+________________________________________________________________________________
+~(X \/ Y \/ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y \/ Z
+h1 : ~X /\ ~Y /\ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : ~Y /\ ~Z
+h2 : X \/ Y \/ Z
+h1 : ~X /\ ~Y /\ ~Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : ~Y /\ ~Z
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+h4 : ~Y /\ ~Z
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n1 : X
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n1 : X
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+n1 : Y \/ Z
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n2 : Y
+n1 : Y \/ Z
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n2 : Y
+n1 : Y \/ Z
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+n2 : Y
+n1 : Y \/ Z
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+n2 : Z
+n1 : Y \/ Z
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+n2 : Z
+n1 : Y \/ Z
+h1 : ~Y
+h5 : ~Z
+h3 : ~X
+h2 : X \/ Y \/ Z
+________________________________________________________________________________
+Z
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X \/ X /\ Y -> X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X \/ X /\ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : X \/ X /\ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Y
+h1 : X \/ X /\ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Y
+h2 : X /\ Y
+h1 : X \/ X /\ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> X \/ X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X \/ X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X \/ ~X /\ Y -> X \/ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : X \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : X \/ ~X /\ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X /\ Y
+h1 : X \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : Y
+h2 : ~X /\ Y
+h1 : X \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : Y
+h2 : ~X /\ Y
+h1 : X \/ ~X /\ Y
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X \/ Y -> X \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X \/ Y
+________________________________________________________________________________
+X \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : X \/ Y
+________________________________________________________________________________
+X \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : X \/ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : Y
+h1 : X \/ Y
+________________________________________________________________________________
+X \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h2 : Y
+h1 : X \/ Y
+________________________________________________________________________________
+X \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h2 : Y
+h1 : X \/ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h2 : Y
+h1 : X \/ Y
+________________________________________________________________________________
+X \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h2 : Y
+h1 : X \/ Y
+________________________________________________________________________________
+~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h2 : Y
+h1 : X \/ Y
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h2 : Y
+h1 : X \/ Y
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Y
+h1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Y
+h1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X /\ Z \/ Y /\ Z
+h1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X /\ Z
+h2 : ~X /\ Z \/ Y /\ Z
+h1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X /\ Z
+h2 : ~X /\ Z \/ Y /\ Z
+h1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+~X /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Y /\ Z
+h2 : ~X /\ Z \/ Y /\ Z
+h1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h5 : Z
+h3 : Y /\ Z
+h2 : ~X /\ Z \/ Y /\ Z
+h1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h5 : Z
+h3 : Y /\ Z
+h2 : ~X /\ Z \/ Y /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h5 : Z
+h3 : Y /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+~X /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h5 : Z
+________________________________________________________________________________
+Z
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+a
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ Y \/ ~X /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z \/ Y /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Y
+h1 : X /\ Y \/ ~X /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z \/ Y /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Y
+h2 : X /\ Y
+h1 : X /\ Y \/ ~X /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z \/ Y /\ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Y
+h2 : X /\ Y
+h1 : X /\ Y \/ ~X /\ Z
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X /\ Z
+h1 : X /\ Y \/ ~X /\ Z
+________________________________________________________________________________
+X /\ Y \/ ~X /\ Z \/ Y /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X /\ Z
+h1 : X /\ Y \/ ~X /\ Z
+________________________________________________________________________________
+~X /\ Z \/ Y /\ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X /\ Z
+h1 : X /\ Y \/ ~X /\ Z
+________________________________________________________________________________
+~X /\ Z
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X /\ (X \/ Y) -> X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ (X \/ Y)
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : X \/ Y
+h1 : X /\ (X \/ Y)
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> X /\ (X \/ Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X /\ (X \/ Y)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X /\ (~X \/ Y) -> X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ (~X \/ Y)
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : ~X \/ Y
+h1 : X /\ (~X \/ Y)
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : ~X \/ Y
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h2 : X
+h3 : ~X \/ Y
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h2 : X
+h3 : ~X \/ Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h2 : X
+h3 : ~X \/ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Y
+h2 : X
+h3 : ~X \/ Y
+________________________________________________________________________________
+X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Y
+h2 : X
+h3 : ~X \/ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Y
+h2 : X
+h3 : ~X \/ Y
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem5_1 : X /\ (~X \/ Y) -> X /\ Y
+theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X /\ Y -> X /\ (~X \/ Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ Y
+________________________________________________________________________________
+X /\ (~X \/ Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : Y
+h1 : X /\ Y
+________________________________________________________________________________
+X /\ (~X \/ Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : Y
+________________________________________________________________________________
+X /\ (~X \/ Y)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : Y
+________________________________________________________________________________
+~X \/ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h3 : Y
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem5_2 : X /\ Y -> X /\ (~X \/ Y)
+theorem5_1 : X /\ (~X \/ Y) -> X /\ Y
+theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(X \/ Y) /\ (X \/ ~Y) -> X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (X \/ Y) /\ (X \/ ~Y)
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : X \/ ~Y
+h1 : (X \/ Y) /\ (X \/ ~Y)
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : X \/ ~Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+h2 : X \/ Y
+h3 : X \/ ~Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Y
+h2 : X \/ Y
+h3 : X \/ ~Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Y
+h3 : X \/ ~Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : Y
+h3 : X \/ ~Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~Y
+h1 : Y
+h3 : X \/ ~Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~Y
+h1 : Y
+h3 : X \/ ~Y
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~Y
+h1 : Y
+h3 : X \/ ~Y
+________________________________________________________________________________
+Y
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem6_1 : (X \/ Y) /\ (X \/ ~Y) -> X
+theorem5_2 : X /\ Y -> X /\ (~X \/ Y)
+theorem5_1 : X /\ (~X \/ Y) -> X /\ Y
+theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X -> (X \/ Y) /\ (X \/ ~Y)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+(X \/ Y) /\ (X \/ ~Y)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X \/ ~Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem6_2 : X -> (X \/ Y) /\ (X \/ ~Y)
+theorem6_1 : (X \/ Y) /\ (X \/ ~Y) -> X
+theorem5_2 : X /\ Y -> X /\ (~X \/ Y)
+theorem5_1 : X /\ (~X \/ Y) -> X /\ Y
+theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z) -> X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (X \/ Y) /\ (~X \/ Z)
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+h1 : (X \/ Y) /\ (~X \/ Z)
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : ~X
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : ~X
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : ~X
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X /\ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z) -> X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (X \/ Y) /\ (~X \/ Z)
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+h1 : (X \/ Y) /\ (~X \/ Z)
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : ~X
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : ~X
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : ~X
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h5 : Z
+h4 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X /\ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X /\ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X
+h1 : Z
+h4 : Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem7_1 : (X \/ Y) /\ (~X \/ Z) -> X /\ Z \/ ~X /\ Y
+theorem6_2 : X -> (X \/ Y) /\ (X \/ ~Y)
+theorem6_1 : (X \/ Y) /\ (X \/ ~Y) -> X
+theorem5_2 : X /\ Y -> X /\ (~X \/ Y)
+theorem5_1 : X /\ (~X \/ Y) -> X /\ Y
+theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+X /\ Z \/ ~X /\ Y -> (X \/ Y) /\ (~X \/ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Z
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> Error: unrecognized tactic
+3 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Z
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Z
+h2 : X /\ Z
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Z
+h2 : X /\ Z
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+X
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X /\ Y
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : Y
+h2 : ~X /\ Y
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : Y
+h2 : ~X /\ Y
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X /\ Z
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Z
+h2 : X /\ Z
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : X
+h4 : Z
+h2 : X /\ Z
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~X /\ Y
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : Y
+h2 : ~X /\ Y
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~X
+h4 : Y
+h2 : ~X /\ Y
+h1 : X /\ Z \/ ~X /\ Y
+________________________________________________________________________________
+~X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem7_2 : X /\ Z \/ ~X /\ Y -> (X \/ Y) /\ (~X \/ Z)
+theorem7_1 : (X \/ Y) /\ (~X \/ Z) -> X /\ Z \/ ~X /\ Y
+theorem6_2 : X -> (X \/ Y) /\ (X \/ ~Y)
+theorem6_1 : (X \/ Y) /\ (X \/ ~Y) -> X
+theorem5_2 : X /\ Y -> X /\ (~X \/ Y)
+theorem5_1 : X /\ (~X \/ Y) -> X /\ Y
+theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z) -> (X \/ Y) /\ (~X \/ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : (~X \/ Z) /\ (Y \/ Z)
+h1 : (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : (~X \/ Z) /\ (Y \/ Z)
+h1 : (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : (~X \/ Z) /\ (Y \/ Z)
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X \/ Z
+h4 : Y \/ Z
+h2 : X \/ Y
+h3 : (~X \/ Z) /\ (Y \/ Z)
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X \/ Z
+h4 : Y \/ Z
+h2 : X \/ Y
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem8_1 : (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z) -> (X \/ Y) /\ (~X \/ Z)
+theorem7_2 : X /\ Z \/ ~X /\ Y -> (X \/ Y) /\ (~X \/ Z)
+theorem7_1 : (X \/ Y) /\ (~X \/ Z) -> X /\ Z \/ ~X /\ Y
+theorem6_2 : X -> (X \/ Y) /\ (X \/ ~Y)
+theorem6_1 : (X \/ Y) /\ (X \/ ~Y) -> X
+theorem5_2 : X /\ Y -> X /\ (~X \/ Y)
+theorem5_1 : X /\ (~X \/ Y) -> X /\ Y
+theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z) -> (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : (X \/ Y) /\ (~X \/ Z)
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+h1 : (X \/ Y) /\ (~X \/ Z)
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+(X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X \/ Y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+(~X \/ Z) /\ (Y \/ Z)
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h4 : ~X
+h1 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h4 : ~X
+h1 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h4 : ~X
+h1 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h1 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Z
+h1 : X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X \/ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+~X
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> Tactic 'destruct' failed: the given hypothesis is not a conjunction or disjunction
+2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h4 : X
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h4 : Y
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Z
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h1 : Z
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : X
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+Y \/ Z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : X
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h4 : X
+h1 : ~X
+h2 : X \/ Y
+h3 : ~X \/ Z
+________________________________________________________________________________
+X
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> theorem8_2 : (X \/ Y) /\ (~X \/ Z) -> (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+theorem8_1 : (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z) -> (X \/ Y) /\ (~X \/ Z)
+theorem7_2 : X /\ Z \/ ~X /\ Y -> (X \/ Y) /\ (~X \/ Z)
+theorem7_1 : (X \/ Y) /\ (~X \/ Z) -> X /\ Z \/ ~X /\ Y
+theorem6_2 : X -> (X \/ Y) /\ (X \/ ~Y)
+theorem6_1 : (X \/ Y) /\ (X \/ ~Y) -> X
+theorem5_2 : X /\ Y -> X /\ (~X \/ Y)
+theorem5_1 : X /\ (~X \/ Y) -> X /\ Y
+theorem4_2 : X -> X /\ (X \/ Y)
+theorem4_1 : X /\ (X \/ Y) -> X
+theorem3_2 : X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+theorem3_1 : X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+theorem2_2 : X \/ Y -> X \/ ~X /\ Y
+theorem2_1 : X \/ ~X /\ Y -> X \/ Y
+theorem1_2 : X -> X \/ X /\ Y
+theorem1_1 : X \/ X /\ Y -> X
+demorgan4_2 : ~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+demorgan4_1 : ~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+demorgan3_2 : ~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+demorgan3_1 : ~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+demorgan2_2 : ~X /\ ~Y -> ~(X \/ Y)
+demorgan2_1 : ~(X \/ Y) -> ~X /\ ~Y
+demorgan1_2 : ~X \/ ~Y -> ~(X /\ Y)
+demorgan1_1 : ~(X /\ Y) -> ~X \/ ~Y
+distributive2_2 : (A \/ B) /\ (A \/ C) -> A \/ B /\ C
+distributive2_1 : A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+distributive1_2 : A /\ B \/ A /\ C -> A /\ (B \/ C)
+distributive1_1 : A /\ (B \/ C) -> A /\ B \/ A /\ C
+associative2_2 : (A \/ B) \/ C -> A \/ B \/ C
+associative2_1 : A \/ B \/ C -> (A \/ B) \/ C
+associative1_2 : (A /\ B) /\ C -> A /\ B /\ C
+associative1_1 : A /\ B /\ C -> (A /\ B) /\ C
+communative2_2 : B \/ A -> A \/ B
+communative2_1 : A \/ B -> B \/ A
+communative1_2 : B /\ A -> A /\ B
+communative1_1 : A /\ B -> B /\ A
+negation5_2 : F -> X /\ ~X
+negation5_1 : ~(X /\ ~X)
+negation4_2 : X -> ~~X
+negation4_1 : ~~X -> X
+negation3_2 : F -> ~T
+negation3_1 : ~~T
+negation2_2 : T -> ~F
+negation2_1 : ~F -> T
+negation1_2 : T -> X \/ ~X
+negation1_1 : X \/ ~X -> T
+identity6_2 : X -> X /\ X
+identity6_1 : X /\ X -> X
+identity5_2 : X -> X \/ X
+identity5_1 : X \/ X -> X
+identity4_2 : X -> T /\ X
+identity4_1 : T /\ X -> X
+identity3_2 : T -> T \/ X
+identity3_1 : T \/ X -> T
+identity2_2 : F -> F /\ X
+identity2_1 : ~(F /\ X)
+identity1_2 : X -> F \/ X
+identity1_1 : F \/ X -> X
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> See you next time!

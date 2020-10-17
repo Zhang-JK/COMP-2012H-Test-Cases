@@ -1,0 +1,1277 @@
+Welcome!
+You are using My Mini Proof Assistant (TM), v0.1.0beta
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Theorem name is invalid: name must be at least 1 character long, contain only alphanumeric characters + underscore and first character cannot be a digit or uppercase
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Error: unrecognized tactic
+1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Theorem name is invalid: name must be at least 1 character long, contain only alphanumeric characters + underscore and first character cannot be a digit or uppercase
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Error: unrecognized tactic
+1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'destruct' failed: hypothesis name is already taken
+1 subgoal(s) remaining.
+Current focused subgoal:
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'destruct' failed: the two hypothesis names must be unique
+1 subgoal(s) remaining.
+Current focused subgoal:
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : ~y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : ~y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic failed: invalid hypothesis name
+2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : ~y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'destruct' failed: hypothesis name is already taken
+2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'destruct' failed: given hypothesis name not found in local or global context
+2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic failed: invalid hypothesis name
+2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+a3 : y
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'by_contradiction' failed: hypothesis name is already taken
+3 subgoal(s) remaining.
+Current focused subgoal:
+a3 : y
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(x /\ y \/ x /\ z)
+a3 : y
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(x /\ y \/ x /\ z)
+a3 : y
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(x /\ y \/ x /\ z)
+a3 : y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+a3 : y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+2 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis not found in local or global context
+2 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ z
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+3 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y
+Enter a tactic:
+> Tactic 'left' failed: conclusion is not a disjunction
+2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y
+Enter a tactic:
+> Tactic 'right' failed: conclusion is not a disjunction
+2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x /\ y
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x
+Enter a tactic:
+> Tactic 'clear' failed: no hypothesis of the given name found
+3 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+x
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+________________________________________________________________________________
+x
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h0 : y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+y
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a1 : x
+a2 : y \/ z
+________________________________________________________________________________
+z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+a4 : z
+h0 : ~y
+a2 : y \/ z
+________________________________________________________________________________
+z
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a0 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> There is already a theorem with the same name, please choose a different one.
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+a : x /\ (y \/ z) -> x /\ y \/ x /\ z
+________________________________________________________________________________
+T \/ F
+Enter a tactic:
+> Tactic failed: invalid hypothesis name
+1 subgoal(s) remaining.
+Current focused subgoal:
+a : x /\ (y \/ z) -> x /\ y \/ x /\ z
+________________________________________________________________________________
+T \/ F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+a : x /\ (y \/ z) -> x /\ y \/ x /\ z
+________________________________________________________________________________
+T \/ F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+a : x /\ (y \/ z) -> x /\ y \/ x /\ z
+________________________________________________________________________________
+T \/ F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+a : x /\ (y \/ z) -> x /\ y \/ x /\ z
+________________________________________________________________________________
+T
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~T
+a : x /\ (y \/ z) -> x /\ y \/ x /\ z
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~T
+a : x /\ (y \/ z) -> x /\ y \/ x /\ z
+________________________________________________________________________________
+T
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a1 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+a0 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> There is already a theorem with the same name, please choose a different one.
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+a
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+a0 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : x /\ (y \/ z)
+________________________________________________________________________________
+x /\ (y \/ z)
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a2 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+a1 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+a0 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : T \/ F
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+h1 : T \/ F
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h1 : T \/ F
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : F
+h1 : T \/ F
+________________________________________________________________________________
+F
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis not found in local or global context
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Error: unrecognized tactic
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'intro' failed: hypothesis name is already taken
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic failed: invalid hypothesis name
+1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T
+________________________________________________________________________________
+(x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+h2 : T
+________________________________________________________________________________
+((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h0 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+h1 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+h2 : T
+________________________________________________________________________________
+x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : x /\ (y \/ z)
+h0 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+h1 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+h2 : T
+________________________________________________________________________________
+x /\ y \/ x /\ z
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h3 : x /\ (y \/ z)
+h0 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+h1 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+h2 : T
+________________________________________________________________________________
+x /\ (y \/ z)
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a3 : T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+a2 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+a1 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+a0 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a4 : T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+a3 : T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+a2 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+a1 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+a0 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Theorem name is invalid: name must be at least 1 character long, contain only alphanumeric characters + underscore and first character cannot be a digit or uppercase
+Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+(~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q) -> Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q /\ T
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P /\ F
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q /\ T
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P /\ F
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q /\ T
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic failed: invalid hypothesis name
+6 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+6 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+6 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> Tactic 'left' failed: conclusion is not a disjunction
+6 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 7 subgoal(s) remaining.
+Current focused subgoal:
+h3 : F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+7 subgoal(s) remaining.
+Current focused subgoal:
+h3 : F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 7 subgoal(s) remaining.
+Current focused subgoal:
+h4 : T /\ F \/ F
+h3 : F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> Tactic 'intro' failed: hypothesis name is already taken
+6 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h4 : T /\ F \/ F
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 7 subgoal(s) remaining.
+Current focused subgoal:
+h5 : T /\ F
+h4 : T /\ F \/ F
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic 'destruct' failed: the two hypothesis names must be unique
+7 subgoal(s) remaining.
+Current focused subgoal:
+h5 : T /\ F
+h4 : T /\ F \/ F
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 7 subgoal(s) remaining.
+Current focused subgoal:
+h6 : T
+h7 : F
+h5 : T /\ F
+h4 : T /\ F \/ F
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 7 subgoal(s) remaining.
+Current focused subgoal:
+h6 : T
+h7 : F
+h5 : T /\ F
+h4 : T /\ F \/ F
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+7 subgoal(s) remaining.
+Current focused subgoal:
+h6 : T
+h7 : F
+h5 : T /\ F
+h4 : T /\ F \/ F
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h5 : F
+h4 : T /\ F \/ F
+h3 : ~F
+h2 : ~~(T /\ F \/ F)
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P /\ F
+Enter a tactic:
+> Tactic 'right' failed: conclusion is not a disjunction
+5 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P /\ F
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q /\ T
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+T
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+T
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T /\ F \/ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic 'destruct' failed: hypothesis name is already taken
+4 subgoal(s) remaining.
+Current focused subgoal:
+h2 : T /\ F \/ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h3 : T /\ F
+h2 : T /\ F \/ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h3 : T /\ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> Error: unrecognized tactic
+5 subgoal(s) remaining.
+Current focused subgoal:
+h3 : T /\ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic 'destruct' failed: the two hypothesis names must be unique
+5 subgoal(s) remaining.
+Current focused subgoal:
+h3 : T /\ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 5 subgoal(s) remaining.
+Current focused subgoal:
+h4 : T
+h5 : F
+h3 : T /\ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic 'apply' failed: hypothesis is not applicable to conclusion
+5 subgoal(s) remaining.
+Current focused subgoal:
+h4 : T
+h5 : F
+h3 : T /\ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h4 : F
+h2 : T /\ F \/ F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h4 : F
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P /\ F
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> Tactic 'intro' failed: conclusion is not an implication
+4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P /\ F
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q /\ T
+Enter a tactic:
+> Error: unrecognized tactic
+6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+Q /\ T
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+F
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+~(T /\ F \/ F)
+Enter a tactic:
+> 6 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(T /\ F \/ F) -> P /\ F -> Q /\ T -> Q
+________________________________________________________________________________
+P /\ F
+Enter a tactic:
+> Proof aborted
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> a4 : T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+a3 : T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+a2 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+a1 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+a0 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> Enter the name of the theorem to be proven:
+> Enter the statement of the theorem to be proven:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+________________________________________________________________________________
+~(P /\ Q) -> ~P \/ ~Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+~P \/ ~Q
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h2 : P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+~P \/ ~Q
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Q
+h2 : P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+~P \/ ~Q
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Q
+h2 : P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+F
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Q
+h2 : P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+P /\ Q
+Enter a tactic:
+> 4 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Q
+h2 : P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+P
+Enter a tactic:
+> 3 subgoal(s) remaining.
+Current focused subgoal:
+h3 : Q
+h2 : P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+Q
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~Q
+h2 : P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+~P \/ ~Q
+Enter a tactic:
+> 2 subgoal(s) remaining.
+Current focused subgoal:
+h3 : ~Q
+h2 : P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+~Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+~P \/ ~Q
+Enter a tactic:
+> 1 subgoal(s) remaining.
+Current focused subgoal:
+h2 : ~P
+h1 : ~(P /\ Q)
+________________________________________________________________________________
+~P
+Enter a tactic:
+> No more subgoals.
+Theorem added to existing results
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> demorgan : ~(P /\ Q) -> ~P \/ ~Q
+a4 : T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+a3 : T \/ F -> (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> ((x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F) -> x /\ (y \/ z) -> x /\ y \/ x /\ z
+a2 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+a1 : (x /\ (y \/ z) -> x /\ y \/ x /\ z) -> T \/ F
+a0 : x /\ (y \/ z) -> x /\ y \/ x /\ z
+Choose an option:
+P. Prove a theorem
+B. Browse existing theorems
+Q. Quit
+> See you next time!

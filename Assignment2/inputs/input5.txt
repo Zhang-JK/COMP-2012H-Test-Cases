@@ -1,0 +1,795 @@
+p
+identity_1
+F \/ X <-> X
+abort
+p
+a1
+X <-> X
+abort
+p
+identity1.1
+identity1_1
+F \/ X -> X
+intro h1
+destruct h1 as h2 h1
+destruct h1 as h2 h2
+contradiction
+apply h1
+apply h2
+b
+p
+identity1_2
+X -> F \/ X
+intro h1
+right
+apply h1
+b
+p
+identity2_1
+F /\ X -> F
+intro h1
+destruct h1 as h2 h3
+destruct h1 as h2 h2
+clear h1
+apply h3
+apply h2
+b
+p
+identity2_2
+F -> F /\ X
+
+intro h1
+contradiction
+b
+p
+identity3_1
+T \/ X -> T
+intro h1
+trivial
+b
+p
+identity3_2
+T -> T \/ X
+intro h1
+excluded_middle h2 : X
+rotate 1
+left
+apply h1
+right
+apply h2
+b
+p
+identity4_1
+T /\ X -> X
+intro h1
+destruct h1 as h2 h3
+apply h3
+b
+p
+identity4_2
+X -> T /\ X
+intro h1
+split
+trivial
+apply h1
+b
+p
+identity5_1
+X \/ X -> X
+intro h1
+destruct h1 as h2 h3
+apply h2
+apply h3
+b
+p
+identity5_2
+X -> X \/ X
+intro h1
+left
+apply h1
+b
+p
+identity6_1
+X /\ X -> X
+intro h1
+destruct h1 as h2 h3
+apply h2
+b
+p
+identity6_2
+X -> X /\ X
+intro h1
+split
+apply h1
+apply h1
+b
+p
+negation1_1
+X \/ ~X -> T
+intro h1
+destruct h1 as h2 h2
+trivial
+trivial
+b
+p
+negation1_2
+T -> X \/ ~X
+intro h1
+excluded_middle h2 : X
+rotate 1
+right
+apply h2
+left
+apply h2
+b
+p
+negation2_1
+~F -> T
+intro h1
+trivial
+b
+p
+negation2_2
+T -> ~F
+intro h1
+apply 1
+apply h1
+excluded_middle F
+excluded_middle h2 : F
+rotate 
+rotate 1
+apply h2
+apply h2
+apply h1
+contradiciton
+b
+p
+negation3_1
+~T -> F
+intro h1
+apply h1
+trivial
+b
+p
+negation3_2
+F -> ~T
+intro h1
+contradiction
+b
+p
+negation4_1
+~~X -> X
+intro h1
+apply h1
+by_contradiciton h1
+by_contradiciton h2
+apply h1
+apply h2
+b
+p
+negation4_2
+X -> ~~X
+intro h1
+by_contradiction h2
+excluded_middle h3 : X
+clear h3
+apply h2
+intro h3
+apply h3
+apply h1
+apply h3
+apply h1
+b
+p
+negation5_1
+X /\ ~X -> F
+intro h1
+destruct h1 as h2 h3
+apply h3
+apply h2
+b
+p
+negation5_2
+F -> X /\ ~X
+intro h1
+contradiction
+b
+p
+communative1_1
+A /\ B -> B /\ A
+intro h1
+destruct h1 as h2 h3
+split
+apply h3
+apply h2
+b
+p
+communative1_1
+communative1_2
+B /\ A -> A /\ B
+intro h1
+destruct h1 as h2 h3
+split
+apply h3
+apply h2
+b
+p
+communative2_1
+A \/ B -> B \/ A
+intro h1
+destruct h1 as h2 h2
+right
+apply h2
+left
+apply h2
+b
+p
+communative2_2
+B \/ A -> A \/ B
+intro h
+destruct h as h2 h2
+right
+apply h2
+left
+apply h2
+b
+p
+associative1_1
+A /\ (B /\ C) -> (A /\ B) /\ C
+intro h1
+destruct h1 as h2 h3
+clear h1
+destruct h3 as h1 h4
+clear h3
+split
+split
+apply h2
+rotate 1
+apply h4
+apply h1
+b
+p
+associative1_2
+(A /\ B) /\ C -> A /\ (B /\ C)
+intro h1
+destruct h1 as h2 h3
+clear h1
+destruct h2 as h1 h4
+clear h2
+split
+split
+rotate 1
+split
+apply h4
+apply h3
+apply h1
+b
+p
+associative2_1
+A \/ (B \/ C) -> (A \/ B) \/ C
+intro h1
+excluded_middle h2 : C
+right
+apply h2
+left
+destruct h1 as h2 h3
+destruct h1 as h4 h3
+left
+apply h4
+destruct h3 as h4 h5
+clear h1
+clear h2
+right
+apply h4
+exfalso
+apply h2
+apply h4
+apply h5
+b
+p
+associative2_2
+(A \/ B) \/ C -> A \/ (B \/ C)
+intro h1
+destruct h1 as h2 h2
+destruct h2 as h3 h3
+left
+apply h3
+right
+left
+apply h3
+right
+right
+apply h2
+b
+p
+distributive1_1
+A /\ (B \/ C) -> A /\ B \/ A /\ C
+intro h1
+destruct h1 as h2 h3
+clear h1
+destruct h3 as h1 h1
+clear h3
+left
+split
+apply h2
+apply h1
+right
+split
+apply h2
+clear h3
+apply h1
+b
+p
+distributive1_2
+A /\ B \/ A /\ C -> A /\ (B \/ C)
+intro h1
+destruct h1 as h2 h3
+destruct h2 as h3 h4
+split
+apply h3
+left
+apply h4
+destruct h3 as h2 h4
+split
+rotate 1
+right
+apply h4
+apply h2
+b
+p
+distributive2_1
+A \/ B /\ C -> (A \/ B) /\ (A \/ C)
+intro h1
+destuct h1 as h2 h2
+destruct h1 as h2 h2
+split
+left
+apply h2
+left
+apply h2
+clear h1
+destruct h2 as h1 h1
+destruct h2 as h1 h3
+clear h2
+split
+right
+apply h1
+right
+apply h3
+b
+p
+distributive2_2
+(A \/ B) /\ (A \/ C) -> A \/ B /\ C
+intro h1
+destruct h1 as h2 h3
+clear h1
+split
+excluded_middle h1 : A
+left
+apply h1
+right
+destruct h2 as h4 h4
+exfalso
+apply h1
+apply h4
+destruct h3 as h5 h5
+exfalso
+apply h1
+apply h5
+split
+apply h4
+apply h5
+b
+p
+demorgan1_1
+~(X /\ Y) -> ~X \/ ~Y
+intro h1
+excluded_middle h2 : X
+rotate 1
+left
+apply h2
+right
+excluded_middle h3 : Y
+rotate 1
+apply h3
+intro h4
+apply h1
+clear h1
+clear h4
+split
+apply h2
+apply h3
+b
+p
+demorgan1_2
+~X \/ ~Y -> ~(X /\ Y)
+intro h1
+intro h2
+destruct h2 as h3 h4
+clear h2
+destruct h1 as h2 h2
+apply h2
+apply h3
+apply h2
+apply h4
+b
+p
+demorgan2_1
+~(X \/ Y) -> ~X /\ ~Y
+intro h1
+split
+intro h1
+intro h2
+apply h1
+left
+apply h2
+intro h2
+apply h1
+right
+apply h2
+b
+p
+demorgan2_2
+~X /\ ~Y -> ~(X \/ Y)
+intro h1
+intro h2
+destruct h1 as h3 h4
+clear h1
+destruct h2 as h1 h1
+apply h3
+apply h1
+apply h4
+apply h1
+b
+p
+demorgan3_1
+~(X /\ Y /\ Z) -> ~X \/ ~Y \/ ~Z
+intro h1
+excluded_middle h2 : X
+rotate -1
+left
+apply h2
+excluded_middle h3 : Y
+rotate 1
+right
+left
+apply h3
+excluded_middle h4 : Z
+rotate 1
+right
+right
+apply h4
+exfalso
+apply h1
+split
+apply h2
+clear h1
+split
+apply h3
+apply h5
+apply h4
+b
+p
+demorgan3_2
+~X \/ ~Y \/ ~Z -> ~(X /\ Y /\ Z)
+intro h1
+intro h2
+destruct h2 as h3 h4
+clear h2
+destruct h4 as h2 h5
+clear h4
+destruct h1 as n1 n1
+apply n1
+apply h3
+destruct n1 as n2 n2
+clear n1
+apply n2
+apply h2
+apply n2
+apply h5
+b
+p
+demorgan4_1
+~(X \/ Y \/ Z) -> ~X /\ ~Y /\ ~Z
+intro h1
+split
+rotate 1
+split
+intro h2
+apply h1
+right
+left
+apply h2
+intro h2
+apply h1
+right
+right
+apply h2
+intro h2
+apply h1
+left
+apply h2
+b
+p
+demorgan4_2
+~X /\ ~Y /\ ~Z -> ~(X \/ Y \/ Z)
+intro h1
+intro h2
+destruct h1 as h3 h4
+clear h1
+destruct h4 as h1 h5
+clear h4
+destruct h2 as n1 n1
+apply h3
+apply n1
+destruct n1 as n2 n2
+clear h2
+apply h1
+apply n2
+apply h5
+apply n2
+b
+p
+theorem1_1
+X \/ X /\ Y -> X
+intro h1
+destruct h1 as h2 h2
+apply h2
+destruct h2 as h3 h4
+apply h3
+b
+p
+theorem1_2
+X -> X \/ X /\ Y
+intro h1
+left
+apply h1
+b
+p
+theorem2_1
+X \/ ~X /\ Y -> X \/ Y
+intro h1
+destruct h1 as h2 h2
+left
+apply h2
+destruct h2 as h3 h4
+right
+apply h4
+b
+p
+theorem2_2
+X \/ Y -> X \/ ~X /\ Y
+intro h1
+destruct h1 as h2 h2
+left
+apply h2
+excluded_middle h3 : X
+left
+apply h3
+right
+split
+apply h3
+apply h2
+b
+p
+theorem3_1
+X /\ Y \/ ~X /\ Z \/ Y /\ Z -> X /\ Y \/ ~X /\ Z
+intro h1
+destruct h1 as h2 h2
+left
+apply h2
+destruct h2 as h3 h3
+right
+apply h3
+destruct h3 as h4 h5
+clear h1
+clear h2
+clear h3
+excluded_middle h1 : X
+left
+split
+apply h1
+apply h4
+right
+split
+apply h1
+apply h5
+b
+p
+abort
+abort
+abort
+p
+theorem3_2
+X /\ Y \/ ~X /\ Z -> X /\ Y \/ ~X /\ Z \/ Y /\ Z
+intro h1
+destruct h1 as h2 h2
+destruct h2 as h3 h4
+left
+apply h2
+right
+left
+apply h2
+b
+p
+theorem4_1
+X /\ (X \/ Y) -> X
+intro h1
+destruct h1 as h2 h3
+apply h2
+b
+p
+theorem4_2
+X -> X /\ (X \/ Y)
+intro h1
+split
+apply h1
+left
+apply h1
+b
+p
+theorem5_1
+X /\ (~X \/ Y) -> X /\ Y
+intro h1
+destruct h1 as h2 h3
+clear h1
+destruct h3 as h1 h1
+exfalso
+apply h1
+apply h2
+split
+apply h2
+apply h1
+b
+p
+theorem5_2
+X /\ Y -> X /\ (~X \/ Y)
+intro h1
+destruct h1 as h2 h3
+clear h1
+split
+apply h2
+right
+apply h3
+b
+p
+theorem6_1
+(X \/ Y) /\ (X \/ ~Y) -> X
+intro h1
+destruct h1 as h2 h3
+clear h1
+destruct h2 as h1 h1
+apply h1
+clear h2
+destruct h3 as h2 h2
+apply h2
+exfalso
+apply h2
+apply h1
+b
+p
+theorem6_2
+X -> (X \/ Y) /\ (X \/ ~Y)
+intro h1
+split
+left
+apply h1
+left
+apply h1
+b
+p
+theorem7_1
+(X \/ Y) /\ (~X \/ Z) -> X /\ Z \/ ~X /\ Y
+intro h1
+destruct h1 as h2 h3
+clear h1
+destruct h2 as h4 h4
+destruct h3 as h5 h5
+exfalso
+apply h5
+apply h4
+right
+split
+rotate 1
+apply h5
+abort
+p
+theorem7_1
+(X \/ Y) /\ (~X \/ Z) -> X /\ Z \/ ~X /\ Y
+intro h1
+destruct h1 as h2 h3
+clear h1
+destruct h2 as h4 h4
+destruct h3 as h5 h5
+exfalso
+apply h5
+apply h4
+left
+split
+apply h4
+apply h5
+clear h2
+destruct h3 as h1 h1
+right
+split
+rotate 1
+apply h4
+apply h1
+rotate -1
+apply h1
+excluded_middle h2 : X
+left
+split
+apply h2
+apply h1
+right
+split
+rotate 1
+apply h4
+apply h2
+b
+p
+theorem7_2
+X /\ Z \/ ~X /\ Y -> (X \/ Y) /\ (~X \/ Z)
+intro h1
+split
+destruct h1 as h2 h2
+
+destruct h2 as h3 h4
+left
+apply h3
+destruct h2 as h3 h4
+right
+apply h4
+destruct h1 as h2 h2
+destruct h2 as h3 h4
+right
+apply h4
+destruct h2 as h3 h4
+left
+apply h3
+b
+p
+theorem8_1
+(X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z) -> (X \/ Y) /\ (~X \/ Z)
+intro h1
+split
+destruct h1 as h2 h3
+apply h2
+destruct h1 as h2 h3
+clear h1
+destruct h3 as h1 h4
+clear h3
+apply h1
+b
+p
+theorem8_2
+(X \/ Y) /\ (~X \/ Z) -> (X \/ Y) /\ (~X \/ Z) /\ (Y \/ Z)
+intro h1
+destruct h1 as h2 h3
+clear h1
+split
+apply h2
+split
+excluded_middle h1 : X
+destruct h3 as h4 h4
+exfalso
+apply h4
+apply h1
+right
+apply h4
+left
+apply h1
+destruct h3 as h1 h1
+destruct h1 as h4 h4
+destruct h2 as h4 h4
+rotate 1
+left
+apply h4
+right
+apply h1
+exfalso
+apply h1
+apply h4
+b
+q
