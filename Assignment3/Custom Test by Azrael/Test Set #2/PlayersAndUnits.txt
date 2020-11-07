@@ -1,0 +1,11 @@
+2
+Alex 4
+A Swordsman 1 1
+B Pikeman 1 2
+C Knight 2 1
+D Archer 2 2
+Bob 4
+E Swordsman 13 28
+F Pikeman 13 27
+G Knight 12 27
+H Archer 12 28
